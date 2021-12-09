@@ -5,7 +5,7 @@ $pdo = new PDO("mysql:host=localhost;dbname=zuzu", "root", "");
 
 <?php
 // $host = '127.0.0.1';
-// $db   = 'healthone';
+// $db   = 'zuzu';
 // $user = 'root';
 // $pass = '';
 // $charset = 'utf8mb4';
@@ -22,10 +22,8 @@ $pdo = new PDO("mysql:host=localhost;dbname=zuzu", "root", "");
 
 // try {
 //     $pdo = new PDO($dsn,$user,$pass,$options);
-//     include_once ('../Classes/Category.php');
-//     include_once ('../Classes/Product.php');
-//     include_once ('../Classes/Review.php');
 //     include_once ('../Classes/User.php');
+
 // } catch (\PDOException $e) {
 //     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 // }
